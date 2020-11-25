@@ -25,10 +25,10 @@ declare(strict_types=1);
 namespace kim\present\factory\skin;
 
 use kim\present\converter\png\PngConverter;
-use kim\present\traits\singleton\SingletonTrait;
 use pocketmine\entity\InvalidSkinException;
 use pocketmine\network\mcpe\protocol\types\SkinData;
 use pocketmine\network\mcpe\protocol\types\SkinImage;
+use pocketmine\utils\SingletonTrait;
 use pocketmine\utils\VersionString;
 
 class SkinFactory{

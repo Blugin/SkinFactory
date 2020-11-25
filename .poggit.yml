@@ -10,6 +10,4 @@ projects:
     libs:
       - src: PresentKim/png-converter/png-converter
         version: ^1.0.2
-      - src: PresentKim/singleton-trait/singleton-trait
-        version: ^2.0.0
 ...
